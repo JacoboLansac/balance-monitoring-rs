@@ -1,0 +1,24 @@
+[default]
+
+[[chains]]
+name = 'bsc'
+minimum_native_amount_in_ether = 0.01
+
+[[chains]]
+name = 'matic'
+minimum_native_amount_in_ether = 1
+
+[[chains]]
+name = 'mainnet'
+minimum_native_amount_in_ether = 0.001
+
+
+[[wallets]]
+name = 'main'
+address = "0xb895d47Db05E057e0AC5fa3456f3D0F58313f71a"
+chains = ['mainnet', 'matjic', 'bsc']
+
+[[wallets]]
+name = 'vinci deployer'
+address = "0xE834DDdaa050A21c7bA2Eece243902Df392D2bB6"
+chains = ['bsc']
